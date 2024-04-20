@@ -47,7 +47,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <br style={{color:'white', backgroundColor:'white'}}/>
+      <div style={{backgroundColor:'white'}}><br/></div>
       {/* Body-2 */}
       <section id='body-2'>
         <div style={{ padding: '5%', backgroundColor: '#F2F2F2', width: '100%' }}>
@@ -63,12 +63,13 @@ const Home = () => {
         </div>
       </section>
       {/* Services Component */}
-      <section id='services' style={{color:'white', backgroundColor:'white'}}>
+      <section id='services' style={{color:'white'}}>
         <br/>
         <Services />
       </section>
       {/* Testimonials Card */}
       <section id='Testimonials'>
+        
       <div style={{ padding: '5%', backgroundColor: '#F2F2F2', width: '100%' }}>
         <div className="card">
           <div className="card-body" style={{display:'flex', alignItems:'center', justifyContent:'center', flexDirection:'column'}}>
