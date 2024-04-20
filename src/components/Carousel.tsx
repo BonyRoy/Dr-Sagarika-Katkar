@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import c1 from '../Images/Dental Filling Service.jpg';
 import c2 from '../Images/Pediatric Dental Care1.jpg';
 import c3 from '../Images/old extraction technique.webp';
@@ -13,7 +13,7 @@ const Carousel = () => {
         { src: c4, title: "Tooth Restoration - Reshaping Service" }
     ];
 
-    const goToIndex = (index) => {
+    const goToIndex = (index: any) => {
         setActiveIndex(index);
     };
 
