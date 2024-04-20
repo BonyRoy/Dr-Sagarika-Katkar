@@ -37,7 +37,7 @@ const Home = () => {
                   <br />
                 </div>
                 {/* Column 2: Image */}
-                <div className="col-lg-6 d-flex justify-content-center align-items-center" style={{ paddingRight: '0%', paddingLeft: '7%' }}>
+                <div className="col-lg-6 d-flex justify-content-center align-items-center" style={{ paddingRight: '0%', paddingLeft: '7%' ,backgroundColor:'white'}}>
                   <div className="header-img">
                     <img src={dance} className="img-fluid animated" alt="home img" style={{ maxWidth: '100%', height: 'auto' }} />
                   </div>
