@@ -47,10 +47,9 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <br style={{color:'white', backgroundColor:'white'}}/>
       {/* Body-2 */}
       <section id='body-2'>
-        <div style={{ padding: '5%', backgroundColor: '#F2F2F2', width: '100%' }}>
+        <div style={{ padding: '5%', backgroundColor: 'white', width: '100%' }}>
           {/* Welcome Card */}
           <div className="card">
             <div className="card-body">
@@ -63,8 +62,7 @@ const Home = () => {
         </div>
       </section>
       {/* Services Component */}
-      <section id='services' style={{color:'white'}}>
-        <br/>
+      <section id='services'>
         <Services />
       </section>
       {/* Testimonials Card */}
