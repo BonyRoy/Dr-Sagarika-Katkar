@@ -1,7 +1,5 @@
-import React from 'react';
-
 const ContactUs = () => {
-  const handlePhoneNumberClick = (phoneNumber) => {
+  const handlePhoneNumberClick = (phoneNumber:any) => {
     window.open(`tel:${phoneNumber}`, '_blank');
   };
 
