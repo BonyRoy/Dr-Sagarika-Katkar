@@ -37,7 +37,7 @@ const Home = () => {
                   <br />
                 </div>
                 {/* Column 2: Image */}
-                <div className="col-lg-6 d-flex justify-content-center align-items-center" style={{ paddingRight: '0%', paddingLeft: '7%' ,backgroundColor:'white'}}>
+                <div className="col-lg-6 d-flex justify-content-center align-items-center" style={{ paddingRight: '0%', paddingLeft: '7%', backgroundColor:'white'}}>
                   <div className="header-img">
                     <img src={dance} className="img-fluid animated" alt="home img" style={{ maxWidth: '100%', height: 'auto' }} />
                   </div>
@@ -46,10 +46,12 @@ const Home = () => {
             </div>
           </div>
         </div>
+ 
       </section>
+      <br/>
       {/* Body-2 */}
-      <section id='body-2'>
-        <div style={{ padding: '5%', backgroundColor: 'white', width: '100%' }}>
+      <section id='body-2' >
+        <div style={{ padding: '5%', backgroundColor: '#F2F2F2', width: '100%' }}>
           {/* Welcome Card */}
           <div className="card">
             <div className="card-body">
@@ -110,3 +112,4 @@ const Home = () => {
 }
 
 export default Home;
+
