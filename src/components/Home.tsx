@@ -34,7 +34,7 @@ const Home = () => {
                     <br />
                     <a href="#contact" className="btn" style={{ backgroundColor: '#3C7373', color: 'white', borderRadius: '20px', fontSize: '1.5em' }}>Book Your Appointment</a>
                   </div>
-                  <br style={{color:'white', backgroundColor:'white'}}/>
+                  <br />
                 </div>
                 {/* Column 2: Image */}
                 <div className="col-lg-6 d-flex justify-content-center align-items-center" style={{ paddingRight: '0%', paddingLeft: '7%' }}>
@@ -47,7 +47,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <br />
+      <br style={{color:'white', backgroundColor:'white'}}/>
       {/* Body-2 */}
       <section id='body-2'>
         <div style={{ padding: '5%', backgroundColor: '#F2F2F2', width: '100%' }}>
@@ -63,7 +63,7 @@ const Home = () => {
         </div>
       </section>
       {/* Services Component */}
-      <section id='services'>
+      <section id='services' style={{color:'white', backgroundColor:'white'}}>
         <br/>
         <Services />
       </section>
