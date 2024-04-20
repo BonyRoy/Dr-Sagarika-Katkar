@@ -1,7 +1,7 @@
 
 const Card = (props: any) => {
   return (
-    <div className="card mb-3" style={{padding:'10px', maxWidth: '540px' }}>
+    <div className="card mb-3" style={{padding:'10px', maxWidth: '540px', backgroundColor:'#3C7373' }}>
       <div className="row g-0">
         <div className="col-md-4">
           <img
