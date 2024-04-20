@@ -34,7 +34,7 @@ const Home = () => {
                     <br />
                     <a href="#contact" className="btn" style={{ backgroundColor: '#3C7373', color: 'white', borderRadius: '20px', fontSize: '1.5em' }}>Book Your Appointment</a>
                   </div>
-                  <br />
+                  <br style={{color:'white', backgroundColor:'white'}}/>
                 </div>
                 {/* Column 2: Image */}
                 <div className="col-lg-6 d-flex justify-content-center align-items-center" style={{ paddingRight: '0%', paddingLeft: '7%' }}>
