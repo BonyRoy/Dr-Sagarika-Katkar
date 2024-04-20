@@ -1,5 +1,5 @@
 
-const Card = (props) => {
+const Card = (props: any) => {
   return (
     <div className="card mb-3" style={{padding:'10px', maxWidth: '540px' }}>
       <div className="row g-0">
