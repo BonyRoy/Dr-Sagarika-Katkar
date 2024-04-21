@@ -39,7 +39,7 @@ const Carousel = () => {
     }, [activeIndex]);
 
     return (
-        <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel" style={{ backgroundColor: 'white' }}>
+        <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel" style={{ backgroundColor: 'black' }}>
             <div className="carousel-indicators">
                 {images.map((_, index) => (
                     <button
