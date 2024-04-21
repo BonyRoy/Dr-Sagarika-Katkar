@@ -8,7 +8,9 @@ import Carousel from './Carousel';
 
 const Home = () => {
   return (
-    <div style={{ width: '100vw', height: '100vh', display: 'flex', flexDirection: 'column' }}>
+    <>
+    <div style={{backgroundColor:'white'}}>
+    <div style={{ width: '100vw', height: '100vh', display: 'flex', flexDirection: 'column', backgroundColor: 'white' }}>
       {/* Header */}
       <div style={{ padding: '2%', backgroundColor: '#CEE8F2', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '2%', flexDirection: 'row', width: '100%' }} className='Header'>
         <img style={{ width: '20%', maxWidth: '200px', height: 'auto', borderRadius: '50%' }} src={Logo} alt="Logo" />
@@ -22,7 +24,7 @@ const Home = () => {
         <a style={{color: '#3C7373' }} href="#contact"><h5>Contact Us</h5></a>
       </div>
       {/* Body-1 */}
-      <section id='header' className="d-flex align-items-center" style={{ marginTop: '2%', width: '100%', flex: '1' }}>
+      <div id='header' className="d-flex align-items-center" style={{ marginTop: '2%', width: '100%', flex: '1' }}>
         <div className="container-fluid nav-bg" style={{ width: '100%' }}>
           <div className="row">
             <div className="col-lg-6 mx-auto">
@@ -38,7 +40,7 @@ const Home = () => {
                 </div>
                 {/* Column 2: Image */}
                 <div className="col-lg-6 d-flex justify-content-center align-items-center" style={{ paddingRight: '0%', paddingLeft: '7%', backgroundColor:'white'}}>
-                  <div className="header-img">
+                  <div className="header-img" style={{backgroundColor:'white'}}>
                     <img src={dance} className="img-fluid animated" alt="home img" style={{ maxWidth: '100%', height: 'auto' }} />
                   </div>
                 </div>
@@ -46,11 +48,11 @@ const Home = () => {
             </div>
           </div>
         </div>
- 
-      </section>
+        </div>
+      </div>
       <br/>
       {/* Body-2 */}
-      <section id='body-2' >
+      <div id='body-2' >
         <div style={{ padding: '5%', backgroundColor: '#F2F2F2', width: '100%' }}>
           {/* Welcome Card */}
           <div className="card">
@@ -62,13 +64,13 @@ const Home = () => {
           </div>
           
         </div>
-      </section>
+      </div>
       {/* Services Component */}
-      <section id='services'>
+      <div id='services' style={{backgroundColor:'white'}}>
         <Services />
-      </section>
+      </div>
       {/* Testimonials Card */}
-      <section id='Testimonials'>
+      <div id='Testimonials'>
       <div style={{ padding: '5%', backgroundColor: '#F2F2F2', width: '100%' }}>
         <div className="card">
           <div className="card-body" style={{display:'flex', alignItems:'center', justifyContent:'center', flexDirection:'column'}}>
@@ -98,16 +100,17 @@ const Home = () => {
           </div>
         </div>
       </div>
-      </section>
+      </div>
       {/* ContactUs Card */}
-      <section id='contact'>
+      <div id='contact' style={{backgroundColor:'white'}}>
         <ContactUs/>
-      </section>
+      </div>
       {/* Footer */}
       <div>
         <Footer/>
       </div>
     </div>
+    </>
   );
 }
 
