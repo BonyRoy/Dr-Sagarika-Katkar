@@ -1,5 +1,5 @@
 import '../components/Card.css'
-const Card = (props) => {
+const Card = (props:any) => {
   return (
     <div className="custom-card mb-4">
       <div className="row g-0">
