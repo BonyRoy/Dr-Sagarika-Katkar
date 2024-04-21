@@ -1,19 +1,17 @@
-
-const Card = (props: any) => {
+import '../components/Card.css'
+const Card = (props) => {
   return (
-    <div className="card mb-3" style={{padding:'10px', maxWidth: '540px', backgroundColor:'#3C7373' }}>
+    <div className="custom-card mb-4">
       <div className="row g-0">
         <div className="col-md-4">
-          <img
-            src={props.imgsrc}
-            className="img-fluid rounded-start"
-            alt={props.imgsrc}
-          />
+          <div className="custom-card-img">
+            <img src={props.imgsrc} className="img-fluid" alt={props.title} />
+          </div>
         </div>
         <div className="col-md-8">
-          <div className="card-body">
-            <h5 className="card-title">{props.title}</h5>
-            <p className="card-text">{props.text}</p>
+          <div className="custom-card-body">
+            <h5 className="custom-card-title">{props.title}</h5>
+            <p className="custom-card-text">{props.text}</p>
           </div>
         </div>
       </div>
@@ -22,3 +20,5 @@ const Card = (props: any) => {
 };
 
 export default Card;
+
+
