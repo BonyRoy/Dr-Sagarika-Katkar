@@ -42,20 +42,18 @@ const Home = () => {
                 <div className="col-lg-6 d-flex justify-content-center align-items-center" style={{ paddingRight: '0%', paddingLeft: '7%', backgroundColor:'white'}}>
                   <div className="header-img" style={{backgroundColor:'white'}}>
                     <img src={dance} className="img-fluid animated" alt="home img" style={{ maxWidth: '100%', height: 'auto' }} />
-                  <br/>
                   </div>
-                  <br/>
                 </div>
               </div>
             </div>
           </div>
         </div>
         </div>
-      <br/>
       </div>
       <br/>
       {/* Body-2 */}
       <div id='body-2' >
+        <br/><br/>
         <div style={{ padding: '5%', backgroundColor: '#F2F2F2', width: '100%' }}>
           {/* Welcome Card */}
           <div className="card">
