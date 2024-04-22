@@ -51,6 +51,7 @@ const Home = () => {
           </div>
         </div>
         </div>
+      <br/>
       </div>
       <br/>
       {/* Body-2 */}
